@@ -81,7 +81,7 @@ Second,
 
 Execution Command:
 
-nohup bash [path to rsem-script-5.0.sh] [path to genome data dir] [path to RNA-Seq data dir] [no. of threads] &
+nohup bash [path to rnaseq_pipeline_for_gene_expression_quantification.sh] [path to genome data dir] [path to RNA-Seq data dir] [no. of threads] &
 
 * 'nohup'  means: the process won't be killed in case the connection to the server fails.
 * 'bash'   means: run the script specified next.
@@ -90,7 +90,7 @@ nohup bash [path to rsem-script-5.0.sh] [path to genome data dir] [path to RNA-S
 for example:
 
 nohup \
-bash /home/roy/rnaseq-pipeline/rsem-script-5.0.sh \
+bash /home/roy/rnaseq-pipelines/rnaseq_pipeline_for_gene_expression_quantification.sh \
 /home/roy/data/human/LSLNGS2015/GENOME_data \
 /home/roy/data/human/LSLNGS2015/RNASEQ_data \
 10 \
